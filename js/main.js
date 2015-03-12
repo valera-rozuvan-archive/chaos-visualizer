@@ -4,7 +4,7 @@ angular.module('app', ['uiSlider', 'app.controllers']);
 // Add a controller, define initialization code.
 angular.module('app.controllers', []).controller('FinanceController',
     function ($scope) {
-        $scope.N_max = 1000;
+        $scope.N_max = 12;
         $scope.outputData = initOutputData();
 
         $scope.r = 1;
