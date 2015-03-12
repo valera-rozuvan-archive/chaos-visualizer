@@ -111,3 +111,8 @@ td input:focus {
 .container-cell.plot {
   text-align: center;
 }
+
+#chaos_plot, #chaos_plot_2 {
+  width: 1000px;
+  height: 500px;
+}
